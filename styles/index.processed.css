@@ -5,7 +5,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Kavivanar&display=swap');
 
 body {
-  background: url(https://i.pinimg.com/originals/fe/5c/26/fe5c26a16c454ac9d24bc9365f2ba023.gif);
+  background: url(https://thumbs.gfycat.com/UnfitDrearyFossa-size_restricted.gif);
   color: rgb(250, 253, 247);
 
   font-family: 'Alegreya SC', serif;
@@ -22,7 +22,7 @@ body {
 /** l'image fait toujours la même hauteur **/
 img{
   margin: 40px;
-  border: 1px solid yellow;
+  border: 1px solid red;
   padding: 10px;
   height: 40vh;
   width: auto;
