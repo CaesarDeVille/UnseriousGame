@@ -2,12 +2,13 @@
  * index.scss
  * - Add any styles you want here!
  */
- @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Kavivanar&display=swap');
 
 body {
-  background: url(https://media.giphy.com/media/14zSZXA5q24PC/source.gif);
+  background: url(https://i.pinimg.com/originals/fe/5c/26/fe5c26a16c454ac9d24bc9365f2ba023.gif);
   color: rgb(250, 253, 247);
-  font-family: 'Press Start 2P', cursive;
+
+  font-family: 'Alegreya SC', serif;
 
   /** permet de centrer les éléments dans la page **/
   display: flex;
@@ -43,21 +44,21 @@ h2{
 
 /** boutons **/
 .btn {
-	box-shadow: 6px 6px 0px 0px #6d4e0b;
-	background:#333;
-	border:1px solid #EEDD0b;
+  box-shadow:inset 21px 33px 10px -16px #e82f12;
+	background-color:#b81900;
+	border:1px solid #613900;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:'Press Start 2P', cursive;
+	font-family:Arial;
 	font-size:17px;
-	padding:7px 25px;
+	font-weight:bold;
+	padding:9px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #810e05;
+	text-shadow:2px 3px 2px #380700;
 }
 .btn:hover {
-	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-	background-color:#f24437;
+	background-color:#b34332;
 }
 .btn:active {
 	position:relative;
