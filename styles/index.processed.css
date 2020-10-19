@@ -84,7 +84,7 @@ h2 {
 }
 
 /** faire clignotter le sous titre **/ 
-h2 {
+h3 {
   animation-iteration-count: infinite;
 }
 
