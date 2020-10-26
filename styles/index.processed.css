@@ -2,13 +2,13 @@
  * index.scss
  * - Add any styles you want here!
  */
- @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Kavivanar&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
 
 body {
   background: url(https://thumbs.gfycat.com/UnfitDrearyFossa-size_restricted.gif);
   color: rgb(250, 253, 247);
 
-  font-family: 'Alegreya SC', serif;
+  font-family: 'IM Fell French Canon SC', serif;
 
   /** permet de centrer les éléments dans la page **/
   display: flex;
@@ -76,6 +76,28 @@ h2{
 .btn{
   margin: 15px;
 }
+
+.signature{
+  background-color: #ffffff1f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position:absolute;
+  top:0px;
+  box-shadow: 4px 8px 7px 6px rgba(0, 0, 0, 0.836);
+  right:20px;
+  width: 150px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.signature a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
 
 /** faire bouger un peu tout ça **/
 h1,
